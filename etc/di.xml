@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Widget\Model\Widget\Instance" type="DR\Widget\Model\Widget\Instance" />
+
+    <type name="DR\Widget\Model\Widget\Instance">
+        <arguments>
+            <argument name="layoutHandles" xsi:type="array">
+                <item name="cms_pages" xsi:type="string">cms_page_view</item>
+            </argument>
+            <argument name="specificEntitiesLayoutHandles" xsi:type="array">
+                <item name="cms_pages" xsi:type="string">cms_page_view_id_{{ID}}</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
