@@ -1,6 +1,6 @@
 {
   "name": "dr/widget",
-  "description": "Enhanced widget module for Magento 2",
+  "description": "Extends the core module 'Magento_Widget'.",
   "require": {
     "php": "^5.5.0|^7.0.0",
     "magento/module-widget": "^100.0.0"
@@ -15,8 +15,12 @@
       "url": "https://repo.magento.com/"
     }
   ],
+  "keywords": [
+    "Magento 2",
+    "Widget"
+  ],
   "type": "magento2-module",
-  "license": "OSL-3.0",
+  "license": "MIT",
   "autoload": {
     "files": [
       "registration.php"
