@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
-    <event name="adminhtml_block_html_before">
-        <observer name="change_template_of_layout_updates_fieldset" instance="DR\Widget\Observer\ChangeTemplateObserver" shared="false"/>
-    </event>
-    <event name="view_block_abstract_to_html_before">
-        <observer name="add_display_on_options" instance="DR\Widget\Observer\AddDisplayOnOptionsObserver" shared="false"/>
-    </event>
-</config>

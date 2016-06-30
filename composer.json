@@ -7,7 +7,8 @@
   },
   "require-dev": {
     "phpunit/phpunit": "5.3.*",
-    "squizlabs/php_codesniffer": "2.6.*"
+    "squizlabs/php_codesniffer": "2.6.*",
+    "zendframework/zend-http": "~2.4.6"
   },
   "repositories": [
     {
@@ -23,10 +24,15 @@
   "license": "MIT",
   "autoload": {
     "files": [
-      "registration.php"
+      "src/registration.php"
     ],
     "psr-4": {
-      "DR\\Widget\\": ""
+      "DR\\Widget\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DR\\Widget\\Test\\": "tests"
     }
   }
 }
