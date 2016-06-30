@@ -1,6 +1,12 @@
 {
   "name": "dr/widget",
   "description": "Extends the core module 'Magento_Widget'.",
+  "authors": [
+    {
+      "name": "Daniel Rose",
+      "email": "daniel-rose@gmx.de"
+    }
+  ],
   "require": {
     "php": "^5.5.0|^7.0.0",
     "magento/module-widget": "^100.0.0"
