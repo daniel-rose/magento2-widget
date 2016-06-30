@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/daniel-rose/magento2-widget.svg?branch=master)](https://travis-ci.org/daniel-rose/magento2-widget)
+
 # DR_Widget
 Extends the core module "Magento_Widget".
 
